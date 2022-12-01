@@ -25,6 +25,10 @@ $produits=$requete->fetchAll(PDO::FETCH_ASSOC);
 
     <?php foreach ($produits as $produit):  ?>
 
+
+        //jkqgfifrkfjlhf:qk:
+
+
         <div class="card col-md-4 m-4 p-0 rounded border-success mb-3" style="max-width: 20rem;">
             <img height="200" src="<?=  'upload/'.$produit['photo']; ?>" alt="">
             <div class="card-header "><?=  $produit['titre']; ?></div>
